@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, serif;
+    background-color:white;
+}
+
+.title{
+    text-transform: capitalize;
+    color: white;
+    background-color: orange;
+    border-radius: 1rem;
+}
+
+.bg-orange{
+    background-color: orange;
+    color: white;
+    text-align: center;
+}
+
+.bg-orange h2 {
+    font-weight: bolder;
+}
+
+.bg-white{
+    background-color: white;
+    color: dimgrey;
+}
+
+.bg-white h2{
+    font-weight: bolder;
+    color: orange;
+}
+.tx-orange{
+    color: orange;
+}
+
+.lasagna-list{
+    list-style-image: url("images/lasagneicone2.png");
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.button{
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+}
+
+.button:link{
+    color: white;
+}
+
+.button:hover{
+    color:black!important;
+}
+
+.button:visited{
+    color:white;
+}
+
+.footerblack:link{
+    color: black;
+    font-weight: bold;
+}
+
+.footerblack:hover{
+}
+
+.footerblack:visited{
+    color: black;
+}
