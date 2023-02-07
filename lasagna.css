@@ -13,12 +13,13 @@ body {
 
 .bg-orange{
     background-color: orange;
-    color: white;
+    color: white!important;
     text-align: center;
 }
 
 .bg-orange h2 {
     font-weight: bolder;
+    padding-top: 30px;
 }
 
 .bg-white{
@@ -32,6 +33,23 @@ body {
 }
 .tx-orange{
     color: orange;
+}
+
+nav ul{
+    list-style-type: none;
+    color: black;
+}
+
+nav li{
+    display:inline;
+}
+
+nav a:link, nav a:visited{
+    color: black;
+}
+
+nav a:hover{
+    color: orange!important;
 }
 
 .lasagna-list{
@@ -50,22 +68,13 @@ a:visited{
     color: inherit;
 }
 
-.button{
-    color: white;
-    font-weight: bold;
+.button:link, .button:visited{
+    color: white!important;
     background-color: orange;
 }
 
-.button:link{
-    color: white;
-}
-
-.button:hover{
-    color:black!important;
-}
-
-.button:visited{
-    color:white;
+ul{
+    list-style-type: none;
 }
 
 .footerblack:link{
@@ -74,8 +83,48 @@ a:visited{
 }
 
 .footerblack:hover{
+    color: orange;
 }
 
 .footerblack:visited{
     color: black;
+}
+
+.footerremblack:hover, .footerremblack:link, .footerremblack:visited{
+    color: black;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+#block1{
+    width: 1920px;
+    height: 1080px;
+}
+
+#block2{
+    width: 1920px;
+    height: 2160px;
+}
+
+#blockmoreabout{
+    width: 1920px;
+    height: 1080px;
+    padding-top: 30px;
+}
+
+#block4{
+    width: 1920px;
+    height: 1080;
+}
+
+#Tasty\ Stuff{
+    width: 1920px;
+    height: 1080px;
+    background-color: orange;
+}
+
+#Meet\ the\ other\ me{
+    width: 1920px;
+    height: 1080px;
+    padding-top: 30px;
 }
