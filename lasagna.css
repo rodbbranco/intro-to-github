@@ -52,6 +52,11 @@ nav a:hover{
     color: orange!important;
 }
 
+.nav{
+    position: relative;
+    right: 19px;
+}
+
 .lasagna-list{
     list-style-image: url("images/lasagneicone2.png");
     text-align: center;
@@ -92,8 +97,8 @@ ul{
 
 .footerremblack:hover, .footerremblack:link, .footerremblack:visited{
     color: black;
-    font-weight: lighter;
-    text-decoration: underline;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #block1{
@@ -127,4 +132,17 @@ ul{
     width: 1920px;
     height: 1080px;
     padding-top: 30px;
+}
+
+.getintouch{
+    position: fixed;
+    bottom: 30px;
+    left: 50px;
+    text-align: left;
+}
+
+.backtotop{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
 }
